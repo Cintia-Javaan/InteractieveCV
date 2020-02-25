@@ -1,0 +1,52 @@
+.footer {
+    
+    height:100px;
+    width: 100%;
+    background-color: plum;
+    position: fixed;
+    bottom:0;
+    left:0;
+   
+  
+}
+
+.contact{
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    float: left;
+    margin: 30px 0 10px 40px;
+    line-height: 1px;
+    
+}
+
+.contact h6{
+    font-weight: none;
+    color: lavenderblush;
+
+}
+
+.border {
+    font-size: 15px;
+    color: lavenderblush;
+    /* border-bottom: lavenderblush 3px solid; */
+}
+
+.linkedin{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 40px 50px 40px 0;
+   
+}
+
+.linkedin:hover{
+
+    box-shadow: 0 0 6px 1px rgba(0, 140,186, 0.5);
+
+    
+}
+
+@media only screen and (min-width: 1000px){
+
+}

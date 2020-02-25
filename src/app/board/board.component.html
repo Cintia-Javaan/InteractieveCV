@@ -1,0 +1,28 @@
+<h1> Boter, kaas en eieren</h1>
+
+<h2>Huidige speler: {{player}}</h2>
+
+<h2 *ngIf= "winner">
+    Speler {{winner}} wint de game!
+</h2>
+<h2 *ngIf= "draw">
+    Het is een gelijkspel.
+</h2>
+
+
+<main>
+    <app-vierkant
+        *ngFor= "let val of vierkant; let i = index"
+        [value]="val"
+        (click)= "makeMove(i)"
+        >
+    </app-vierkant>
+  
+</main>
+
+<button class = " nieuw-spel" (click)= "newGame()">Start een nieuw spel</button>
+<br> <br>
+
+<div class="push"></div>
+
+
