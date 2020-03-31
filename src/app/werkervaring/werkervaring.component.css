@@ -21,8 +21,24 @@ img{
    
 }
 
+.werkervaring_volkenkunde{
+    width:80%; 
+    
+    
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:45px 25px 25px 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .werkervaring_hmc{
-    width:80%;
+    width:80%; 
     
     
     text-align: center;
@@ -95,10 +111,19 @@ img{
         padding-bottom: 50px;
     }
 
-    .push{
-        height: 150px;
+    .werkervaring_volkenkunde{
+        width: calc(25% - 30px) ;
+        
+        font-size: 10px;
+        
+
+        padding-top: 0;
+        padding-bottom: 42px;
     }
 
+    .push{
+        height: 400px;
+    }
 }
 
 

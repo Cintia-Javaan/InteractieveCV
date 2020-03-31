@@ -15,7 +15,7 @@ button{
   text-decoration: none;
   display: inline-block;
   font-size: 13px;
-  margin: 0 0 20px 0
+  margin: 0 0 20px 0 
 
 }
 
@@ -58,6 +58,9 @@ h2{
         text-align: left;
     }
 
+    .push{
+        height: 100px;
+    }
     
 }
 

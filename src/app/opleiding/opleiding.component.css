@@ -50,7 +50,7 @@ a{
     margin: 16px 16px 20px ;
     width: calc(100%-32);
     height: 100px;
-    background-image: url(../../assets/img/safar-safarov-unsplash.jpg);
+    background-image: url(../../assets/img/safar-safarov-unsplash.jpg); 
     background-size: cover; 
     background-position: center;
 
@@ -78,13 +78,10 @@ a{
     }
 
     .index-box-1{
-        margin: 150px 64px 20px ;
         width: calc(40% - 41px);
        height: 500px;
-        background-image: url(../../assets/img/aaron-burden-unsplash.jpg);
-        
        
-    
+        
     }
 
     .index-box-2{
@@ -107,7 +104,7 @@ a{
 
     .opleidingen{
        
-        width: calc(70%-32px);
+        width: calc(60%-32px);
         margin: 250px 64px 20px 60px !important;
        
         
@@ -115,7 +112,7 @@ a{
 
     .cursussen{
        
-        width: calc(70%-62px);
+        width: calc(60%-62px);
         margin: 250px 64px 20px 60px !important;
         
         
@@ -123,7 +120,7 @@ a{
 
     .diploma{
       
-        width: calc(70%-62px);
+        width: calc(60%-62px);
         margin: 250px 64px 20px 60px !important;
     }
 
@@ -150,6 +147,10 @@ a{
         
         font-size: 16px;
       
+    }
+
+    .push{
+        height: 200px;
     }
     
 }
