@@ -104,7 +104,7 @@ a{
 
     .opleidingen{
        
-        width: calc(60%-32px);
+        width: calc(50%-32px);
         margin: 250px 64px 20px 60px !important;
        
         
@@ -112,7 +112,7 @@ a{
 
     .cursussen{
        
-        width: calc(60%-62px);
+        width: calc(50%-62px);
         margin: 250px 64px 20px 60px !important;
         
         
@@ -120,7 +120,7 @@ a{
 
     .diploma{
       
-        width: calc(60%-62px);
+        width: calc(50%-62px);
         margin: 250px 64px 20px 60px !important;
     }
 
